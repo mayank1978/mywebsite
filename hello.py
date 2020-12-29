@@ -9,7 +9,8 @@ def index():
 
 @app.route('/<page_name>')
 def about(page_name):
-    return render_template(f'{page_name}.html.css.static')
+    print(page_name)
+    return render_template(f'{page_name}')
 
 @app.route('/you/<string:user_name>')
 def youtube(user_name):
