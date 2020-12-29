@@ -1,0 +1,6 @@
+.vscode
+__pycache__
+venv
+static/images
+static/plugins
+static/scss
